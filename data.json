@@ -1,0 +1,26 @@
+[
+  {
+    "nome": "Sirius",
+    "descricao": "A estrela mais brilhante no céu noturno da Terra. Faz parte da constelação Canis Major.",
+    "ano": "Antiguidade",
+    "link_imagem": "https://cdn.pixabay.com/photo/2017/02/19/21/30/sirius-2080966_1280.jpg"
+  },
+  {
+    "nome": "Alpha Centauri A",
+    "descricao": "Uma das estrelas do sistema estelar mais próximo do Sol. É uma estrela do tipo G, semelhante ao nosso Sol.",
+    "ano": "1839",
+    "link_imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Alpha%2C_Beta_and_Proxima_Centauri_%281%29.jpg/960px-Alpha%2C_Beta_and_Proxima_Centauri_%281%29.jpg"
+  },
+  {
+    "nome": "TRAPPIST-1",
+    "descricao": "Uma anã ultra-fria que hospeda sete planetas rochosos do tamanho da Terra, alguns na zona habitável.",
+    "ano": "1999",
+    "link_imagem": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/PIA21429_-_Transit_Illustration_of_TRAPPIST-1.jpg/500px-PIA21429_-_Transit_Illustration_of_TRAPPIST-1.jpg"
+  },
+  {
+    "nome": "Proxima Centauri",
+    "descricao": "A estrela mais próxima do nosso Sol, parte do sistema Alpha Centauri. É uma anã vermelha.",
+    "ano": "1915",
+    "link_imagem": "https://cdn.eso.org/images/large/eso1735a.jpg"
+  }
+]
