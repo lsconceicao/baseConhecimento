@@ -48,10 +48,11 @@ function iniciarBusca() {
   // Utiliza o método 'filter' para criar um novo array apenas com os itens que correspondem à busca.
   // 'filter' é mais moderno e conciso que um loop 'for' para esta tarefa.
   const resultados = dados.filter((dado) => {
-    const nome = dado.nome.toLowerCase();
-    const descricao = dado.descricao.toLowerCase();
+    const nome = (dado.nome_equipamento || "").toLowerCase();
+    const sku = (dado.sku_equipamento || "").toLowerCase();
+    const id = (dado.id_equipamento || "").toLowerCase()
     // Retorna 'true' se o nome ou a descrição incluírem o termo pesquisado.
-    return nome.includes(termoPesquisa) || descricao.includes(termoPesquisa);
+    return nome.includes(termoPesquisa) || sku.includes(termoPesquisa) || id.includes(termoPesquisa);
   });
 
   // Renderiza os cards com os resultados filtrados.
@@ -76,11 +77,13 @@ function renderizarCards(dadosParaRenderizar) {
 
     // Preenche o conteúdo do card com os dados do item.
     article.innerHTML = `
-      <img src="${dado.link_imagem}" alt="Imagem de ${dado.nome}" class="card-img">
+      <img src="${dado.link_imagem}" alt="Imagem de ${dado.nome_equipamento}" class="card-img">
       <div class="card-content">
-        <h2>${dado.nome}</h2>
-        <p>${dado.ano}</p>
-        <p>${dado.descricao}</p>
+        <h2>Equipamento: ${dado.nome_equipamento}</h2>
+        <p>SKU: ${dado.sku_equipamento}</p>
+        <p>ID Equipamento: ${dado.id_equipamento}</p>
+        <p>SKU Capa: ${dado.id_acessorio_capas.join(", ")}</p>
+        <p>SKU Pelicula: ${dado.id_acessorio_peliculas.join(", ")}</p>
       </div>
     `;
     cardContainer.appendChild(article);
