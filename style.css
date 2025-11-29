@@ -237,7 +237,7 @@ article a:hover {
 .card-img {
     width: 100%;       /* Ocupa toda a largura do card */
     height: 200px;     /* Altura fixa para todos os cards ficarem iguais */
-    object-fit: cover; /* Corta a imagem para preencher o espaço sem distorcer */
+    object-fit:cover;
     border-bottom: 1px solid var(--tertiary-color);
 }
 

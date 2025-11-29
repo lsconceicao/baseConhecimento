@@ -3,10 +3,11 @@
     "nome_equipamento": "APPLE - IPAD 11TH WI-FI/5G 128GB PRATA",
     "sku_equipamento": "MD7F4BZ_A",
     "id_equipamento": "IPAD-11TH",
-    "link_imagem": "assets/img/MD7F4BZ_A.jpg",
+    "link_imagem": "",
     "id_acessorio_capas": [
       "CAPA-IPAD-11TH"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/Apple/fichas-tecnicas/n9339/Apple-iPad-Pro-11-2024.html",
     "id_acessorio_peliculas": [
       "PE-IPAD-11THP"
     ]
@@ -15,10 +16,11 @@
     "nome_equipamento": "APPLE - IPAD 11TH WI-FI/5G 256GB PRATA",
     "sku_equipamento": "MD7K4BZ_A",
     "id_equipamento": "IPAD-11TH",
-    "link_imagem": "assets/img/MD7K4BZ_A.jpg",
+    "link_imagem": "",
     "id_acessorio_capas": [
       "CAPA-IPAD-11TH"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/apple/fichas-tecnicas/n9339/Apple-iPad-Pro-11-2024.html",
     "id_acessorio_peliculas": [
       "PE-IPAD-11THP"
     ]
@@ -27,10 +29,11 @@
     "nome_equipamento": "APPLE - IPHONE SE 128GB MIDNIGHT (2022)",
     "sku_equipamento": "MMXJ3BZ_4",
     "id_equipamento": "IPSE",
-    "link_imagem": "assets/img/MMXJ3BZ_4.jpg",
+    "link_imagem": "",
     "id_acessorio_capas": [
       "CAPA-IPSE-4-7P"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/Apple/fichas-tecnicas/n7700/Apple-iPhone-SE.html",
     "id_acessorio_peliculas": [
       "PE-SE-4-7P"
     ]
@@ -39,11 +42,12 @@
     "nome_equipamento": "APPLE IPAD 10TH WI-FI/5G 256GB PRATEADO",
     "sku_equipamento": "MQ6T3BZ_4",
     "id_equipamento": "IPAD",
-    "link_imagem": "assets/img/MQ6T3BZ_4.jpg",
+    "link_imagem": "",
     "id_acessorio_capas": [
       "CAPA-IPAD-9TH",
       "CAPA-IPAD-P11"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/Apple/fichas-tecnicas/n8225/Apple-iPad-10.html",
     "id_acessorio_peliculas": [
       "PE-IPAD-10THP",
       "PE-IPAD-9THP",
@@ -55,10 +59,11 @@
     "nome_equipamento": "APPLE - IPHONE 15 PLUS 512GB PRETO",
     "sku_equipamento": "MU1H3BE_A",
     "id_equipamento": "IPS15",
-    "link_imagem": "assets/img/MU1H3BE_A.jpg",
+    "link_imagem": "",
     "id_acessorio_capas": [
       "CAPA-IPS15-6-7"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/Apple/fichas-tecnicas/n8897/Apple-iPhone-15-Plus.html",
     "id_acessorio_peliculas": [
       "PE-IPS15-6-7P",
       "PE-IPS15-6-7V"
@@ -72,6 +77,7 @@
     "id_acessorio_capas": [
       "CAPA-IP16-6-1P"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/Apple/fichas-tecnicas/n9677/Apple-iPhone-16.html",
     "id_acessorio_peliculas": [
       "PE-IP16-6-1P"
     ]
@@ -84,6 +90,7 @@
     "id_acessorio_capas": [
       "CAPA-IP16-6-1P"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/Apple/fichas-tecnicas/n9677/Apple-iPhone-16.html",
     "id_acessorio_peliculas": [
       "PE-IP16-6-1P"
     ]
@@ -94,6 +101,7 @@
     "id_equipamento": "IPP16",
     "link_imagem": "assets/img/MYNH3BE_A.jpg",
     "id_acessorio_capas": [],
+    "link_ficha_tecnica": "https://www.tudocelular.com/apple/fichas-tecnicas/n9394/apple-iphone-16-pro.html",
     "id_acessorio_peliculas": []
   },
   {
@@ -104,6 +112,7 @@
     "id_acessorio_capas": [
       "CAPAIPM16-6-9P"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/apple/fichas-tecnicas/n9395/apple-iphone-16-pro-max.html",
     "id_acessorio_peliculas": [
       "PE-IPM16-6-9P"
     ]
@@ -116,6 +125,7 @@
     "id_acessorio_capas": [
       "CAPA-A032-6-5"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n7555/Samsung-Galaxy-A03-Core.html",
     "id_acessorio_peliculas": [
       "PEL-A032-6-5",
       "PEL-A032-6-5_2"
@@ -129,6 +139,7 @@
     "id_acessorio_capas": [
       "CAPA-A055-6-7"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9001/Samsung-Galaxy-A05.html",
     "id_acessorio_peliculas": [
       "PE-A055-6-7V"
     ]
@@ -141,6 +152,7 @@
     "id_acessorio_capas": [
       "CAPA-A057-6-7"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9002/samsung-galaxy-a05s.html",
     "id_acessorio_peliculas": [
       "PE-A057-6-7P",
       "PE-A057-6-7V"
@@ -154,6 +166,7 @@
     "id_acessorio_capas": [
       "CAPA-A066-6-7P"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9433/samsung-galaxy-a06.html",
     "id_acessorio_peliculas": [
       "PE-A066-6-7P_6"
     ]
@@ -166,6 +179,7 @@
     "id_acessorio_capas": [
       "CAPA-A145-6-6"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n8588/Samsung-Galaxy-A14.html",
     "id_acessorio_peliculas": [
       "PEL-A145-6-6_6"
     ]
@@ -178,6 +192,7 @@
     "id_acessorio_capas": [
       "CAPA-A155-6-5"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9079/Samsung-Galaxy-A15.html",
     "id_acessorio_peliculas": [
       "PE-A155-6-5P",
       "PE-A155-6-5V"
@@ -191,6 +206,7 @@
     "id_acessorio_capas": [
       "CAPA-A165-6-7P"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9434/samsung-galaxy-a16.html",
     "id_acessorio_peliculas": []
   },
   {
@@ -201,6 +217,7 @@
     "id_acessorio_capas": [
       "CAPA-A165-6-7P"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9434/samsung-galaxy-a16.html",
     "id_acessorio_peliculas": []
   },
   {
@@ -211,6 +228,7 @@
     "id_acessorio_capas": [
       "CAPA-A166-6-7P"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9434/samsung-galaxy-a16.html",
     "id_acessorio_peliculas": [
       "PE-A166-6-7P"
     ]
@@ -223,6 +241,7 @@
     "id_acessorio_capas": [
       "CAPA-A166-6-7P"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9434/samsung-galaxy-a16.html",
     "id_acessorio_peliculas": [
       "PE-A166-6-7P"
     ]
@@ -235,6 +254,7 @@
     "id_acessorio_capas": [
       "CAPA-A256-6-5P"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9077/Samsung-Galaxy-A25.html",
     "id_acessorio_peliculas": [
       "PE-A256-6-5P"
     ]
@@ -247,6 +267,7 @@
     "id_acessorio_capas": [
       "CAPA-A266-6-7P"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9435/samsung-galaxy-a26.html",
     "id_acessorio_peliculas": [
       "PE-A266-6-7P"
     ]
@@ -259,6 +280,7 @@
     "id_acessorio_capas": [
       "CAPA-A366-6-7P"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9436/samsung-galaxy-a36.html",
     "id_acessorio_peliculas": [
       "PE-A366-6-7P"
     ]
@@ -271,6 +293,7 @@
     "id_acessorio_capas": [
       "CAPA-A556-6-6P"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9196/Samsung-Galaxy-A55.html",
     "id_acessorio_peliculas": [
       "PE-A556-6-6P"
     ]
@@ -283,6 +306,7 @@
     "id_acessorio_capas": [
       "CAPA-A556-6-6P"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9196/Samsung-Galaxy-A55.html",
     "id_acessorio_peliculas": [
       "PE-A556-6-6P"
     ]
@@ -293,6 +317,7 @@
     "id_equipamento": "G556",
     "link_imagem": "assets/img/SM-G556BZKD_4.jpg",
     "id_acessorio_capas": [],
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9118/Samsung-Galaxy-Xcover-7.html",
     "id_acessorio_peliculas": [
       "PEL-G556-6-6"
     ]
@@ -303,6 +328,7 @@
     "id_equipamento": "G556",
     "link_imagem": "assets/img/SM-G556BZKDLEB.jpg",
     "id_acessorio_capas": [],
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9118/Samsung-Galaxy-Xcover-7.html",
     "id_acessorio_peliculas": [
       "PEL-G556-6-6"
     ]
@@ -316,6 +342,7 @@
       "CAPA-G715-6-3",
       "CAPA-G715-RBT"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n6203/Samsung-Galaxy-Xcover-Pro.html",
     "id_acessorio_peliculas": [
       "PEL-G715-6-3",
       "PEL-G715-6-3_2"
@@ -331,6 +358,7 @@
       "CAPA-P615-10-4",
       "CAPA-P615-10-4"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n6338/samsung-galaxy-tab-s6-lite.html",
     "id_acessorio_peliculas": [
       "PE-P615-10-5_6",
       "PE-P615-10-5_6",
@@ -343,6 +371,7 @@
     "id_equipamento": "P62X",
     "link_imagem": "assets/img/SM-P620NZAD_4.jpg",
     "id_acessorio_capas": [],
+    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9210/samsung-galaxy-tab-s6-lite-2024.html",
     "id_acessorio_peliculas": [
       "PE-P62X-10-4P"
     ]
@@ -353,6 +382,7 @@
     "id_equipamento": "P62X",
     "link_imagem": "assets/img/SM-P620NZADZTO.jpg",
     "id_acessorio_capas": [],
+    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9210/samsung-galaxy-tab-s6-lite-2024.html",
     "id_acessorio_peliculas": [
       "PE-P62X-10-4P"
     ]
@@ -365,6 +395,7 @@
     "id_acessorio_capas": [
       "CAPA-S921-6-2P"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9115/Samsung-Galaxy-S24.html",
     "id_acessorio_peliculas": [
       "PE-S921-6-2V_6",
       "PE-S921-6-2P"
@@ -378,6 +409,7 @@
     "id_acessorio_capas": [
       "CAPA-S921-6-2P"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9115/Samsung-Galaxy-S24.html",
     "id_acessorio_peliculas": [
       "PE-S921-6-2V_6",
       "PE-S921-6-2P"
@@ -391,6 +423,7 @@
     "id_acessorio_capas": [
       "CAPA-S921-6-2P"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9115/Samsung-Galaxy-S24.html",
     "id_acessorio_peliculas": [
       "PE-S921-6-2V_6",
       "PE-S921-6-2P"
@@ -405,6 +438,7 @@
       "CAPA-S926-6-7",
       "CAPA-S926-6-7P"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9116/Samsung-Galaxy-S24-Plus.html",
     "id_acessorio_peliculas": [
       "PE-S926-6-7V"
     ]
@@ -417,6 +451,7 @@
     "id_acessorio_capas": [
       "CAPA-T290-8_N2"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n5792/samsung-galaxy-tab-a-80-2019.html",
     "id_acessorio_peliculas": [
       "PEL-T290"
     ]
@@ -427,6 +462,7 @@
     "id_equipamento": "T575",
     "link_imagem": "assets/img/SM-T575NZKP_5.jpg",
     "id_acessorio_capas": [],
+    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n6690/samsung-galaxy-tab-active-3.html",
     "id_acessorio_peliculas": [
       "PEL-T575-8_2",
       "PE-T575-8V"
@@ -440,6 +476,7 @@
     "id_acessorio_capas": [
       "CAPA-X115-8-7"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9003/samsung-galaxy-tab-a9.html",
     "id_acessorio_peliculas": [
       "PE-X115-8-7P"
     ]
@@ -454,6 +491,7 @@
       "CAPA-X200-10-5",
       "CAPA-X200-10-5"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n7610/samsung-galaxy-tab-a8.html",
     "id_acessorio_peliculas": [
       "PELX20010-5_2"
     ]
@@ -466,6 +504,7 @@
     "id_acessorio_capas": [
       "CAPA-X210-11-0"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9004/samsung-galaxy-tab-a9-plus.html",
     "id_acessorio_peliculas": [
       "PE-X210-11-0P"
     ]
@@ -478,6 +517,7 @@
     "id_acessorio_capas": [
       "CAPA-X216-11-0"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9004/samsung-galaxy-tab-a9-plus.html",
     "id_acessorio_peliculas": [
       "PE-X216-11-0P"
     ]
@@ -488,6 +528,7 @@
     "id_equipamento": "X306",
     "link_imagem": "assets/img/SM-X306BZGAL05.jpg",
     "id_acessorio_capas": [],
+    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9119/samsung-galaxy-tab-active-5.html",
     "id_acessorio_peliculas": [
       "PE-X306-8V"
     ]
@@ -500,6 +541,7 @@
     "id_acessorio_capas": [
       "CAPA-X510-10-4"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n8998/samsung-galaxy-tab-s9-fe.html",
     "id_acessorio_peliculas": [
       "PE-X510-10-4V"
     ]
@@ -510,6 +552,7 @@
     "id_equipamento": "X526",
     "link_imagem": "assets/img/SM-X526BZADZTO.jpg",
     "id_acessorio_capas": [],
+    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9441/samsung-galaxy-tab-s10-fe.html",
     "id_acessorio_peliculas": [
       "PE-X526-10-9P"
     ]
@@ -520,6 +563,7 @@
     "id_equipamento": "X736",
     "link_imagem": "assets/img/SM-X736BZAHZTO.jpg",
     "id_acessorio_capas": [],
+    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9443/samsung-galaxy-tab-s11.html",
     "id_acessorio_peliculas": [
       "PE-X736-11-0P"
     ]
@@ -533,6 +577,7 @@
       "CAPA-2237-6-5",
       "CAPA-2237-COU"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/motorola/fichas-tecnicas/n8621/motorola-moto-g73.html",
     "id_acessorio_peliculas": [
       "PEL-2237-6-5"
     ]
@@ -545,6 +590,7 @@
     "id_acessorio_capas": [
       "CAPA-2239N-6-5"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/motorola/fichas-tecnicas/n8379/motorola-moto-e22.html",
     "id_acessorio_peliculas": [
       "PEL-2239-6-5_2"
     ]
@@ -557,6 +603,7 @@
     "id_acessorio_capas": [
       "CAPA-2307-6-55"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/motorola/fichas-tecnicas/n8975/motorola-edge-40-neo.html",
     "id_acessorio_peliculas": [
       "PE-2307-6-55V"
     ]
@@ -569,6 +616,7 @@
     "id_acessorio_capas": [
       "CAPA-2343-6-5"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/motorola/fichas-tecnicas/n8974/motorola-moto-g54.html",
     "id_acessorio_peliculas": [
       "PEL-2343-POL"
     ]
@@ -581,6 +629,7 @@
     "id_acessorio_capas": [
       "CAPA-2363_6"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/motorola/fichas-tecnicas/n9083/motorola-moto-g34.html",
     "id_acessorio_peliculas": [
       "PE-2363-6-5P"
     ]
@@ -593,6 +642,7 @@
     "id_acessorio_capas": [
       "CAPA-2363_6"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/motorola/fichas-tecnicas/n9083/motorola-moto-g34.html",
     "id_acessorio_peliculas": [
       "PE-2363-6-5P"
     ]
@@ -605,6 +655,7 @@
     "id_acessorio_capas": [
       "CAPA-2433-6-7P"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/motorola/fichas-tecnicas/n9428/motorola-moto-g35.html",
     "id_acessorio_peliculas": [
       "PE-2433-6-7P"
     ]
@@ -617,6 +668,7 @@
     "id_acessorio_capas": [
       "CAPA-2435-6-5P"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/motorola/fichas-tecnicas/n9429/motorola-moto-g55.html",
     "id_acessorio_peliculas": [
       "PE-2435-6-5P"
     ]
@@ -629,6 +681,7 @@
     "id_acessorio_capas": [
       "CAPA-2437-6-8P"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/motorola/fichas-tecnicas/n9430/motorola-moto-g75.html",
     "id_acessorio_peliculas": [
       "PE-2437-6-8P"
     ]
@@ -641,6 +694,7 @@
     "id_acessorio_capas": [
       "CAPA-2527-6-7P"
     ],
+    "link_ficha_tecnica": "https://www.tudocelular.com/motorola/fichas-tecnicas/n9431/motorola-moto-g86.html",
     "id_acessorio_peliculas": [
       "PE-2527-6-7P"
     ]
@@ -651,6 +705,7 @@
     "id_equipamento": "2529",
     "link_imagem": "assets/img/XT2529-1.jpg",
     "id_acessorio_capas": [],
+    "link_ficha_tecnica": "https://www.tudocelular.com/motorola/fichas-tecnicas/n9432/motorola-moto-g56.html",
     "id_acessorio_peliculas": []
   }
 ]
