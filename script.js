@@ -79,11 +79,12 @@ function renderizarCards(dadosParaRenderizar) {
     article.innerHTML = `
       <img src="${dado.link_imagem}" alt="Imagem de ${dado.nome_equipamento}" class="card-img">
       <div class="card-content">
-        <h2>Equipamento: ${dado.nome_equipamento}</h2>
+        <h2>Modelo: ${dado.nome_equipamento}</h2>
         <p>SKU: ${dado.sku_equipamento}</p>
         <p>ID Equipamento: ${dado.id_equipamento}</p>
         <p>SKU Capa: ${dado.id_acessorio_capas.join(", ")}</p>
         <p>SKU Pelicula: ${dado.id_acessorio_peliculas.join(", ")}</p>
+        <p><a href="${dado.link_ficha_tecnica}" target="_blank">Ficha Tecnica</a></p>
       </div>
     `;
     cardContainer.appendChild(article);
