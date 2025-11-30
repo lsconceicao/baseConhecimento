@@ -180,6 +180,16 @@ article a:hover {
     article:hover { /* Estilos para o article em telas menores */
         transform: none; /* Remove o efeito de escala ao passar o mouse */
     }
+    .card {
+        flex-direction: column; /* No celular, volta a imagem para cima */
+    }
+
+    .card-img {
+        width: 100%;       /* Ocupa a largura total */
+        height: 200px;     /* Volta a ter altura fixa */
+        border-right: none; 
+        border-bottom: 1px solid var(--tertiary-color);
+    }
 }
 
 @media (max-width: 480px) {
@@ -213,6 +223,7 @@ article a:hover {
     button { /* Estilos para o botão em telas muito pequenas */
         margin-top: 1rem; /* Adiciona margem no topo */
     }
+    
 }
 .card {
     background-color: #303134; /* Um fundo um pouco mais claro que o body */
@@ -222,7 +233,8 @@ article a:hover {
     box-shadow: 0 4px 6px rgba(0,0,0,0.3); /* Sombra suave para dar profundidade */
     overflow: hidden; /* Garante que a imagem respeite as bordas arredondadas */
     display: flex;
-    flex-direction: column; /* Organiza imagem em cima, texto embaixo */
+    flex-direction: row; /* Organiza imagem em cima, texto embaixo */
+    align-items: stretch; /* Garante que a imagem tenha a mesma altura do texto */
     border: 1px solid var(--tertiary-color); /* Borda sutil */
     transition: transform 0.3s ease;
 }
@@ -235,15 +247,18 @@ article a:hover {
 
 /* Nova classe para a imagem */
 .card-img {
-    width: 100%;       /* Ocupa toda a largura do card */
-    height: 200px;     /* Altura fixa para todos os cards ficarem iguais */
-    object-fit:cover;
-    border-bottom: 1px solid var(--tertiary-color);
+    width: 35%; /* Define a largura da imagem (pode usar px também, ex: 250px) */
+    min-width: 200px; /* Garante que a imagem não fique muito pequena */
+    height: auto; /* A altura se ajusta ao conteúdo do card */
+    object-fit:cover; /* Mantém a proporção da foto sem esticar */
+    border-bottom:none; /* Remove a borda de baixo */
+    border-right: 1px solid var(--tertiary-color); /* Adiciona borda na direita */
 }
 
 /* Nova classe para dar espaçamento apenas no texto */
 .card-content {
     padding: 1.5rem;
+    flex: 1; /* Faz o conteúdo do texto ocupar o espaço restante */
 }
 
 /* Ajustes finos nos textos de dentro */
