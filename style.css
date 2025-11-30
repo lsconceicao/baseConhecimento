@@ -234,6 +234,7 @@ article a:hover {
     overflow: hidden; /* Garante que a imagem respeite as bordas arredondadas */
     display: flex;
     flex-direction: row; /* Organiza imagem em cima, texto embaixo */
+    height: 220px; /* Altura fixa para o card */
     align-items: stretch; /* Garante que a imagem tenha a mesma altura do texto */
     border: 1px solid var(--tertiary-color); /* Borda sutil */
     transition: transform 0.3s ease;
@@ -247,10 +248,10 @@ article a:hover {
 
 /* Nova classe para a imagem */
 .card-img {
-    width: 35%; /* Define a largura da imagem (pode usar px também, ex: 250px) */
-    min-width: 200px; /* Garante que a imagem não fique muito pequena */
-    height: auto; /* A altura se ajusta ao conteúdo do card */
-    object-fit:cover; /* Mantém a proporção da foto sem esticar */
+    width: 12%; /* Define a largura da imagem (pode usar px também, ex: 250px) */
+    /* min-width: 100px; /* Garante que a imagem não fique muito pequena */
+    height: 100%; /* A altura se ajusta ao conteúdo do card */
+    object-fit:scale-down; /* Mantém a proporção da foto sem esticar */
     border-bottom:none; /* Remove a borda de baixo */
     border-right: 1px solid var(--tertiary-color); /* Adiciona borda na direita */
 }

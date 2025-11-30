@@ -3,7 +3,7 @@
     "nome_equipamento": "APPLE - IPAD 11TH WI-FI/5G 128GB PRATA",
     "sku_equipamento": "MD7F4BZ_A",
     "id_equipamento": "IPAD-11TH",
-    "link_imagem": "",
+    "link_imagem": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50090206_907617.png?v=1763089523",
     "id_acessorio_capas": [
       "CAPA-IPAD-11TH"
     ],
@@ -16,7 +16,7 @@
     "nome_equipamento": "APPLE - IPAD 11TH WI-FI/5G 256GB PRATA",
     "sku_equipamento": "MD7K4BZ_A",
     "id_equipamento": "IPAD-11TH",
-    "link_imagem": "",
+    "link_imagem": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50090206_907617.png?v=1763089523",
     "id_acessorio_capas": [
       "CAPA-IPAD-11TH"
     ],
@@ -29,7 +29,7 @@
     "nome_equipamento": "APPLE - IPHONE SE 128GB MIDNIGHT (2022)",
     "sku_equipamento": "MMXJ3BZ_4",
     "id_equipamento": "IPSE",
-    "link_imagem": "",
+    "link_imagem": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50092936_941063.png?v=1763418219&height=500",
     "id_acessorio_capas": [
       "CAPA-IPSE-4-7P"
     ],
@@ -42,7 +42,7 @@
     "nome_equipamento": "APPLE IPAD 10TH WI-FI/5G 256GB PRATEADO",
     "sku_equipamento": "MQ6T3BZ_4",
     "id_equipamento": "IPAD",
-    "link_imagem": "",
+    "link_imagem": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50083474_834815.png?v=1763089016&height=500",
     "id_acessorio_capas": [
       "CAPA-IPAD-9TH",
       "CAPA-IPAD-P11"
@@ -59,7 +59,7 @@
     "nome_equipamento": "APPLE - IPHONE 15 PLUS 512GB PRETO",
     "sku_equipamento": "MU1H3BE_A",
     "id_equipamento": "IPS15",
-    "link_imagem": "",
+    "link_imagem": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50087240_871569.png?v=1763078958&height=500",
     "id_acessorio_capas": [
       "CAPA-IPS15-6-7"
     ],
@@ -73,7 +73,7 @@
     "nome_equipamento": "APPLE - IPHONE 16 128GB PRETO",
     "sku_equipamento": "MYE73BR_A",
     "id_equipamento": "IP16",
-    "link_imagem": "assets/img/MYE73BR_A.jpg",
+    "link_imagem": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50091903_926755.png?v=1763078213&height=500",
     "id_acessorio_capas": [
       "CAPA-IP16-6-1P"
     ],
@@ -86,7 +86,7 @@
     "nome_equipamento": "APPLE - IPHONE 16 256GB PRETO",
     "sku_equipamento": "MYEE3BR_A",
     "id_equipamento": "IP16",
-    "link_imagem": "assets/img/MYEE3BR_A.jpg",
+    "link_imagem": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50091903_926755.png?v=1763078213&height=500",
     "id_acessorio_capas": [
       "CAPA-IP16-6-1P"
     ],
@@ -99,20 +99,20 @@
     "nome_equipamento": "APPLE - IPHONE 16 PRO 256GB TITANIO PRETO",
     "sku_equipamento": "MYNH3BE_A",
     "id_equipamento": "IPP16",
-    "link_imagem": "assets/img/MYNH3BE_A.jpg",
+    "link_imagem": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50091778_928659.png?v=1763079299&height=500",
     "id_acessorio_capas": [],
-    "link_ficha_tecnica": "https://www.tudocelular.com/apple/fichas-tecnicas/n9394/apple-iphone-16-pro.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Apple/fichas-tecnicas/n9679/Apple-iPhone-16-Pro.html",
     "id_acessorio_peliculas": []
   },
   {
     "nome_equipamento": "APPLE - IPHONE 16 PRO MAX 512GB TITANIO PRETO",
     "sku_equipamento": "MYX03BE_A",
     "id_equipamento": "IPPM16",
-    "link_imagem": "assets/img/MYX03BE_A.jpg",
+    "link_imagem": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50091778_928659.png?v=1763079299&height=500",
     "id_acessorio_capas": [
       "CAPAIPM16-6-9P"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/apple/fichas-tecnicas/n9395/apple-iphone-16-pro-max.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Apple/fichas-tecnicas/n9407/Apple-iPhone-16-Pro-Max.html",
     "id_acessorio_peliculas": [
       "PE-IPM16-6-9P"
     ]
@@ -121,11 +121,11 @@
     "nome_equipamento": "SAMSUNG GALAXY A03 CORE (32GB)",
     "sku_equipamento": "SM-A032MCKD_4",
     "id_equipamento": "A032",
-    "link_imagem": "assets/img/SM-A032MCKD_4.jpg",
+    "link_imagem": "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/262333_0_nxmeud.png",
     "id_acessorio_capas": [
       "CAPA-A032-6-5"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n7555/Samsung-Galaxy-A03-Core.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n7412/Samsung-Galaxy-A03-Core.html",
     "id_acessorio_peliculas": [
       "PEL-A032-6-5",
       "PEL-A032-6-5_2"
@@ -135,11 +135,11 @@
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A05 128GB PRETO",
     "sku_equipamento": "SM-A055MZKGZTO",
     "id_equipamento": "A055",
-    "link_imagem": "assets/img/SM-A055MZKGZTO.jpg",
+    "link_imagem": "https://images.samsung.com/is/image/samsung/p6pim/id/sm-a075fzkhxid/gallery/id-galaxy-a07-sm-a075-sm-a075fzkhxid-thumb-548603177?$UX_EXT1_PNG$",
     "id_acessorio_capas": [
       "CAPA-A055-6-7"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9001/Samsung-Galaxy-A05.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n8910/Samsung-Galaxy-A05.html",
     "id_acessorio_peliculas": [
       "PE-A055-6-7V"
     ]
@@ -148,11 +148,11 @@
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A05S 128GB PRETO",
     "sku_equipamento": "SM-A057MZKH_4",
     "id_equipamento": "A057",
-    "link_imagem": "assets/img/SM-A057MZKH_4.jpg",
+    "link_imagem": "https://images.samsung.com/is/image/samsung/p6pim/br/sm-a057mzkhzto/gallery/br-galaxy-a05s-sm-a057-sm-a057mzkhzto-thumb-539590279",
     "id_acessorio_capas": [
       "CAPA-A057-6-7"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9002/samsung-galaxy-a05s.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n8911/Samsung-Galaxy-A05s.html",
     "id_acessorio_peliculas": [
       "PE-A057-6-7P",
       "PE-A057-6-7V"
@@ -162,11 +162,11 @@
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A06 5G 128GB PRETO",
     "sku_equipamento": "SM-A066MZKGZTO",
     "id_equipamento": "A066",
-    "link_imagem": "assets/img/SM-A066MZKGZTO.jpg",
+    "link_imagem": "https://images.samsung.com/is/image/samsung/p6pim/br/sm-a366ezkgzto/gallery/br-galaxy-a36-5g-sm-a366-sm-a366ezkgzto-thumb-545388587?$UX_EXT1_PNG$",
     "id_acessorio_capas": [
       "CAPA-A066-6-7P"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9433/samsung-galaxy-a06.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9863/Samsung-Galaxy-A06-5G.html",
     "id_acessorio_peliculas": [
       "PE-A066-6-7P_6"
     ]
