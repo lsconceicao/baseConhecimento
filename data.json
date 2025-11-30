@@ -175,11 +175,11 @@
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A14 4G EE (128GB) PRETO",
     "sku_equipamento": "SM-A145MZKYLEB",
     "id_equipamento": "A145",
-    "link_imagem": "assets/img/SM-A145MZKYLEB.jpg",
+    "link_imagem": "https://api.zextons.co.uk/uploads/products/20241003_143938_Untitled%20design%20(9).png",
     "id_acessorio_capas": [
       "CAPA-A145-6-6"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n8588/Samsung-Galaxy-A14.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n8518/Samsung-Galaxy-A14.html",
     "id_acessorio_peliculas": [
       "PEL-A145-6-6_6"
     ]
@@ -188,11 +188,11 @@
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A15 128GB AZUL ESCURO",
     "sku_equipamento": "SM-A155MZKD_4",
     "id_equipamento": "A155",
-    "link_imagem": "assets/img/SM-A155MZKD_4.jpg",
+    "link_imagem": "https://guimaraescelulares.com.br/cdn/shop/files/a77df3_72ca7fe0f0fa4f989f7d78c550a7ae72_mv2.webp?v=1715357455&width=1445",
     "id_acessorio_capas": [
       "CAPA-A155-6-5"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9079/Samsung-Galaxy-A15.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n8965/Samsung-Galaxy-A15.html",
     "id_acessorio_peliculas": [
       "PE-A155-6-5P",
       "PE-A155-6-5V"
@@ -202,33 +202,33 @@
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A16 256GB PRETO",
     "sku_equipamento": "SM-A165MZKI_4",
     "id_equipamento": "A165",
-    "link_imagem": "assets/img/SM-A165MZKI_4.jpg",
+    "link_imagem": "https://images.samsung.com/is/image/samsung/p6pim/br/sm-a266mzkhzto/gallery/br-galaxy-a26-5g-sm-a266-sm-a266mzkhzto-thumb-545817283?$UX_EXT1_PNG$",
     "id_acessorio_capas": [
       "CAPA-A165-6-7P"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9434/samsung-galaxy-a16.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9753/Samsung-Galaxy-A16.html",
     "id_acessorio_peliculas": []
   },
   {
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A16 256GB PRETO",
     "sku_equipamento": "SM-A165MZKIZTO",
     "id_equipamento": "A165",
-    "link_imagem": "assets/img/SM-A165MZKIZTO.jpg",
+    "link_imagem": "https://images.samsung.com/is/image/samsung/p6pim/br/sm-a266mzkhzto/gallery/br-galaxy-a26-5g-sm-a266-sm-a266mzkhzto-thumb-545817283?$UX_EXT1_PNG$",
     "id_acessorio_capas": [
       "CAPA-A165-6-7P"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9434/samsung-galaxy-a16.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9753/Samsung-Galaxy-A16.html",
     "id_acessorio_peliculas": []
   },
   {
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A16 5G EE 128GB AZUL ESCURO",
     "sku_equipamento": "SM-A166MZKDL_4",
     "id_equipamento": "A166",
-    "link_imagem": "assets/img/SM-A166MZKDL_4.jpg",
+    "link_imagem": "https://images.samsung.com/is/image/samsung/p6pim/br/sm-a266mzkhzto/gallery/br-galaxy-a26-5g-sm-a266-sm-a266mzkhzto-thumb-545817283?$UX_EXT1_PNG$",
     "id_acessorio_capas": [
       "CAPA-A166-6-7P"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9434/samsung-galaxy-a16.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9703/Samsung-Galaxy-A16-5G.html",
     "id_acessorio_peliculas": [
       "PE-A166-6-7P"
     ]
@@ -237,11 +237,11 @@
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A16 5G EE 128GB AZUL ESCURO",
     "sku_equipamento": "SM-A166MZKDLEB",
     "id_equipamento": "A166",
-    "link_imagem": "assets/img/SM-A166MZKDLEB.jpg",
+    "link_imagem": "https://images.samsung.com/is/image/samsung/p6pim/br/sm-a266mzkhzto/gallery/br-galaxy-a26-5g-sm-a266-sm-a266mzkhzto-thumb-545817283?$UX_EXT1_PNG$",
     "id_acessorio_capas": [
       "CAPA-A166-6-7P"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9434/samsung-galaxy-a16.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9703/Samsung-Galaxy-A16-5G.html",
     "id_acessorio_peliculas": [
       "PE-A166-6-7P"
     ]
@@ -250,11 +250,11 @@
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A25 256GB AZUL ESCURO",
     "sku_equipamento": "SM-A256EZKHZTO",
     "id_equipamento": "A256",
-    "link_imagem": "assets/img/SM-A256EZKHZTO.jpg",
+    "link_imagem": "https://planoscelular.claro.com.br/medias/300Wx300H-productCard-18826-zero.png?context=bWFzdGVyfGltYWdlc3w4NjcyOXxpbWFnZS9wbmd8YUdJNUwyaGhNQzh4TURBM05qRTVNREkwTkRnNU5DOHpNREJYZURNd01FaGZjSEp2WkhWamRFTmhjbVJmTVRnNE1qWmZlbVZ5Ynk1d2JtY3xjNWQxNjM2ODNlZjE0MTkzYTE3ZjdjZTk2ZDM0YTdkZGUwMzVkM2IzNjlkMzI5ZWY5MjVlZmNkNTkyMjA0MmI0",
     "id_acessorio_capas": [
       "CAPA-A256-6-5P"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9077/Samsung-Galaxy-A25.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n8895/Samsung-Galaxy-A25.html",
     "id_acessorio_peliculas": [
       "PE-A256-6-5P"
     ]
@@ -263,11 +263,11 @@
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A26 5G 256GB PRETO",
     "sku_equipamento": "SM-A266MZKHZTO",
     "id_equipamento": "A266",
-    "link_imagem": "assets/img/SM-A266MZKHZTO.jpg",
+    "link_imagem": "https://shop.samsung.com/latin/pub/media/catalog/product/cache/a69170b4a4f0666a52473c2224ba9220/0/0/001-galaxy-a26-5g_set-cut-all.png",
     "id_acessorio_capas": [
       "CAPA-A266-6-7P"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9435/samsung-galaxy-a26.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9874/Samsung-Galaxy-A26.html",
     "id_acessorio_peliculas": [
       "PE-A266-6-7P"
     ]
@@ -276,11 +276,11 @@
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A36 5G 128GB PRETO",
     "sku_equipamento": "SM-A366EZKBZTO",
     "id_equipamento": "A366",
-    "link_imagem": "assets/img/SM-A366EZKBZTO.jpg",
+    "link_imagem": "https://images.samsung.com/is/image/samsung/p6pim/br/sm-a366ezkgzto/gallery/br-galaxy-a36-5g-sm-a366-sm-a366ezkgzto-thumb-545388587",
     "id_acessorio_capas": [
       "CAPA-A366-6-7P"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9436/samsung-galaxy-a36.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9875/Samsung-Galaxy-A36.html",
     "id_acessorio_peliculas": [
       "PE-A366-6-7P"
     ]
@@ -289,11 +289,11 @@
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A55 5G 128GB AZUL ESCURO",
     "sku_equipamento": "SM-A556EZKL_4",
     "id_equipamento": "A556",
-    "link_imagem": "assets/img/SM-A556EZKL_4.jpg",
+    "link_imagem": "https://t.ctcdn.com.br/k3AlQsgIQ0iR1rOM0O_GLc7yBtk=/fit-in/600x600/filters:fill(transparent):watermark(wm/prd.png,-32p,center,1,none,15)/i873155.png",
     "id_acessorio_capas": [
       "CAPA-A556-6-6P"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9196/Samsung-Galaxy-A55.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9149/Samsung-Galaxy-A55.html",
     "id_acessorio_peliculas": [
       "PE-A556-6-6P"
     ]
@@ -302,11 +302,11 @@
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A55 5G EE 256GB AZUL ESCURO",
     "sku_equipamento": "SM-A556EZKML_4",
     "id_equipamento": "A556",
-    "link_imagem": "assets/img/SM-A556EZKML_4.jpg",
+    "link_imagem": "https://t.ctcdn.com.br/k3AlQsgIQ0iR1rOM0O_GLc7yBtk=/fit-in/600x600/filters:fill(transparent):watermark(wm/prd.png,-32p,center,1,none,15)/i873155.png",
     "id_acessorio_capas": [
       "CAPA-A556-6-6P"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9196/Samsung-Galaxy-A55.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9149/Samsung-Galaxy-A55.html",
     "id_acessorio_peliculas": [
       "PE-A556-6-6P"
     ]
