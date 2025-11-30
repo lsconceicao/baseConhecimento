@@ -1,6 +1,7 @@
 [
   {
     "nome_equipamento": "APPLE - IPAD 11TH WI-FI/5G 128GB PRATA",
+    "marca_equipamento": "APPLE",
     "sku_equipamento": "MD7F4BZ_A",
     "id_equipamento": "IPAD-11TH",
     "link_imagem": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50090206_907617.png?v=1763089523",
@@ -14,6 +15,7 @@
   },
   {
     "nome_equipamento": "APPLE - IPAD 11TH WI-FI/5G 256GB PRATA",
+    "marca_equipamento": "APPLE",
     "sku_equipamento": "MD7K4BZ_A",
     "id_equipamento": "IPAD-11TH",
     "link_imagem": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50090206_907617.png?v=1763089523",
@@ -27,6 +29,7 @@
   },
   {
     "nome_equipamento": "APPLE - IPHONE SE 128GB MIDNIGHT (2022)",
+    "marca_equipamento": "APPLE",
     "sku_equipamento": "MMXJ3BZ_4",
     "id_equipamento": "IPSE",
     "link_imagem": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50092936_941063.png?v=1763418219&height=500",
@@ -40,23 +43,19 @@
   },
   {
     "nome_equipamento": "APPLE IPAD 10TH WI-FI/5G 256GB PRATEADO",
+    "marca_equipamento": "APPLE",
     "sku_equipamento": "MQ6T3BZ_4",
-    "id_equipamento": "IPAD",
+    "id_equipamento": "IPAD-10TH",
     "link_imagem": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50083474_834815.png?v=1763089016&height=500",
-    "id_acessorio_capas": [
-      "CAPA-IPAD-9TH",
-      "CAPA-IPAD-P11"
-    ],
+    "id_acessorio_capas": [],
     "link_ficha_tecnica": "https://www.tudocelular.com/Apple/fichas-tecnicas/n8225/Apple-iPad-10.html",
     "id_acessorio_peliculas": [
-      "PE-IPAD-10THP",
-      "PE-IPAD-9THP",
-      "PE-IPAD-9THV",
-      "PEL-IPAD-9TH"
+      "PE-IPAD-10THP"
     ]
   },
   {
     "nome_equipamento": "APPLE - IPHONE 15 PLUS 512GB PRETO",
+    "marca_equipamento": "APPLE",
     "sku_equipamento": "MU1H3BE_A",
     "id_equipamento": "IPS15",
     "link_imagem": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50087240_871569.png?v=1763078958&height=500",
@@ -71,6 +70,7 @@
   },
   {
     "nome_equipamento": "APPLE - IPHONE 16 128GB PRETO",
+    "marca_equipamento": "APPLE",
     "sku_equipamento": "MYE73BR_A",
     "id_equipamento": "IP16",
     "link_imagem": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50091903_926755.png?v=1763078213&height=500",
@@ -84,6 +84,7 @@
   },
   {
     "nome_equipamento": "APPLE - IPHONE 16 256GB PRETO",
+    "marca_equipamento": "APPLE",
     "sku_equipamento": "MYEE3BR_A",
     "id_equipamento": "IP16",
     "link_imagem": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50091903_926755.png?v=1763078213&height=500",
@@ -97,6 +98,7 @@
   },
   {
     "nome_equipamento": "APPLE - IPHONE 16 PRO 256GB TITANIO PRETO",
+    "marca_equipamento": "APPLE",
     "sku_equipamento": "MYNH3BE_A",
     "id_equipamento": "IPP16",
     "link_imagem": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50091778_928659.png?v=1763079299&height=500",
@@ -106,6 +108,7 @@
   },
   {
     "nome_equipamento": "APPLE - IPHONE 16 PRO MAX 512GB TITANIO PRETO",
+    "marca_equipamento": "APPLE",
     "sku_equipamento": "MYX03BE_A",
     "id_equipamento": "IPPM16",
     "link_imagem": "https://cdn.shopify.com/s/files/1/0641/9388/8321/files/50091778_928659.png?v=1763079299&height=500",
@@ -119,6 +122,7 @@
   },
   {
     "nome_equipamento": "SAMSUNG GALAXY A03 CORE (32GB)",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-A032MCKD_4",
     "id_equipamento": "A032",
     "link_imagem": "https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/Communication/Mobiles/Images/262333_0_nxmeud.png",
@@ -133,6 +137,7 @@
   },
   {
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A05 128GB PRETO",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-A055MZKGZTO",
     "id_equipamento": "A055",
     "link_imagem": "https://images.samsung.com/is/image/samsung/p6pim/id/sm-a075fzkhxid/gallery/id-galaxy-a07-sm-a075-sm-a075fzkhxid-thumb-548603177?$UX_EXT1_PNG$",
@@ -146,6 +151,7 @@
   },
   {
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A05S 128GB PRETO",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-A057MZKH_4",
     "id_equipamento": "A057",
     "link_imagem": "https://images.samsung.com/is/image/samsung/p6pim/br/sm-a057mzkhzto/gallery/br-galaxy-a05s-sm-a057-sm-a057mzkhzto-thumb-539590279",
@@ -160,6 +166,7 @@
   },
   {
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A06 5G 128GB PRETO",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-A066MZKGZTO",
     "id_equipamento": "A066",
     "link_imagem": "https://images.samsung.com/is/image/samsung/p6pim/br/sm-a366ezkgzto/gallery/br-galaxy-a36-5g-sm-a366-sm-a366ezkgzto-thumb-545388587?$UX_EXT1_PNG$",
@@ -173,6 +180,7 @@
   },
   {
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A14 4G EE (128GB) PRETO",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-A145MZKYLEB",
     "id_equipamento": "A145",
     "link_imagem": "https://api.zextons.co.uk/uploads/products/20241003_143938_Untitled%20design%20(9).png",
@@ -186,6 +194,7 @@
   },
   {
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A15 128GB AZUL ESCURO",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-A155MZKD_4",
     "id_equipamento": "A155",
     "link_imagem": "https://guimaraescelulares.com.br/cdn/shop/files/a77df3_72ca7fe0f0fa4f989f7d78c550a7ae72_mv2.webp?v=1715357455&width=1445",
@@ -200,6 +209,7 @@
   },
   {
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A16 256GB PRETO",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-A165MZKI_4",
     "id_equipamento": "A165",
     "link_imagem": "https://images.samsung.com/is/image/samsung/p6pim/br/sm-a266mzkhzto/gallery/br-galaxy-a26-5g-sm-a266-sm-a266mzkhzto-thumb-545817283?$UX_EXT1_PNG$",
@@ -211,6 +221,7 @@
   },
   {
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A16 256GB PRETO",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-A165MZKIZTO",
     "id_equipamento": "A165",
     "link_imagem": "https://images.samsung.com/is/image/samsung/p6pim/br/sm-a266mzkhzto/gallery/br-galaxy-a26-5g-sm-a266-sm-a266mzkhzto-thumb-545817283?$UX_EXT1_PNG$",
@@ -222,6 +233,7 @@
   },
   {
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A16 5G EE 128GB AZUL ESCURO",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-A166MZKDL_4",
     "id_equipamento": "A166",
     "link_imagem": "https://images.samsung.com/is/image/samsung/p6pim/br/sm-a266mzkhzto/gallery/br-galaxy-a26-5g-sm-a266-sm-a266mzkhzto-thumb-545817283?$UX_EXT1_PNG$",
@@ -235,6 +247,7 @@
   },
   {
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A16 5G EE 128GB AZUL ESCURO",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-A166MZKDLEB",
     "id_equipamento": "A166",
     "link_imagem": "https://images.samsung.com/is/image/samsung/p6pim/br/sm-a266mzkhzto/gallery/br-galaxy-a26-5g-sm-a266-sm-a266mzkhzto-thumb-545817283?$UX_EXT1_PNG$",
@@ -248,6 +261,7 @@
   },
   {
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A25 256GB AZUL ESCURO",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-A256EZKHZTO",
     "id_equipamento": "A256",
     "link_imagem": "https://planoscelular.claro.com.br/medias/300Wx300H-productCard-18826-zero.png?context=bWFzdGVyfGltYWdlc3w4NjcyOXxpbWFnZS9wbmd8YUdJNUwyaGhNQzh4TURBM05qRTVNREkwTkRnNU5DOHpNREJYZURNd01FaGZjSEp2WkhWamRFTmhjbVJmTVRnNE1qWmZlbVZ5Ynk1d2JtY3xjNWQxNjM2ODNlZjE0MTkzYTE3ZjdjZTk2ZDM0YTdkZGUwMzVkM2IzNjlkMzI5ZWY5MjVlZmNkNTkyMjA0MmI0",
@@ -261,6 +275,7 @@
   },
   {
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A26 5G 256GB PRETO",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-A266MZKHZTO",
     "id_equipamento": "A266",
     "link_imagem": "https://shop.samsung.com/latin/pub/media/catalog/product/cache/a69170b4a4f0666a52473c2224ba9220/0/0/001-galaxy-a26-5g_set-cut-all.png",
@@ -274,6 +289,7 @@
   },
   {
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A36 5G 128GB PRETO",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-A366EZKBZTO",
     "id_equipamento": "A366",
     "link_imagem": "https://images.samsung.com/is/image/samsung/p6pim/br/sm-a366ezkgzto/gallery/br-galaxy-a36-5g-sm-a366-sm-a366ezkgzto-thumb-545388587",
@@ -287,6 +303,7 @@
   },
   {
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A55 5G 128GB AZUL ESCURO",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-A556EZKL_4",
     "id_equipamento": "A556",
     "link_imagem": "https://t.ctcdn.com.br/k3AlQsgIQ0iR1rOM0O_GLc7yBtk=/fit-in/600x600/filters:fill(transparent):watermark(wm/prd.png,-32p,center,1,none,15)/i873155.png",
@@ -300,6 +317,7 @@
   },
   {
     "nome_equipamento": "SS - SMARTPHONE - GALAXY A55 5G EE 256GB AZUL ESCURO",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-A556EZKML_4",
     "id_equipamento": "A556",
     "link_imagem": "https://t.ctcdn.com.br/k3AlQsgIQ0iR1rOM0O_GLc7yBtk=/fit-in/600x600/filters:fill(transparent):watermark(wm/prd.png,-32p,center,1,none,15)/i873155.png",
@@ -313,36 +331,39 @@
   },
   {
     "nome_equipamento": "SS - SMARTPHONE - GALAXY XCOVER 7 128GB 6GB PRETO",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-G556BZKD_4",
     "id_equipamento": "G556",
-    "link_imagem": "assets/img/SM-G556BZKD_4.jpg",
+    "link_imagem": "https://shop.samsung.com/latin/pub/media/catalog/product/cache/a69170b4a4f0666a52473c2224ba9220/s/m/sm-g556b_007_group_black_1.png",
     "id_acessorio_capas": [],
-    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9118/Samsung-Galaxy-Xcover-7.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9114/Samsung-Galaxy-XCover-7.html",
     "id_acessorio_peliculas": [
       "PEL-G556-6-6"
     ]
   },
   {
     "nome_equipamento": "SS - SMARTPHONE - GALAXY XCOVER 7 5G 128GB 6GB PRETO",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-G556BZKDLEB",
     "id_equipamento": "G556",
-    "link_imagem": "assets/img/SM-G556BZKDLEB.jpg",
+    "link_imagem": "https://shop.samsung.com/latin/pub/media/catalog/product/cache/a69170b4a4f0666a52473c2224ba9220/s/m/sm-g556b_007_group_black_1.png",
     "id_acessorio_capas": [],
-    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9118/Samsung-Galaxy-Xcover-7.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9114/Samsung-Galaxy-XCover-7.html",
     "id_acessorio_peliculas": [
       "PEL-G556-6-6"
     ]
   },
   {
     "nome_equipamento": "SAMSUNG SMARTPHONE XCOVER PRO",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-G715UZKTL_5",
     "id_equipamento": "G715",
-    "link_imagem": "assets/img/SM-G715UZKTL_5.jpg",
+    "link_imagem": "https://files.tecnoblog.net/wp-content/uploads/2025/03/Galaxy-XCover-Pro.png",
     "id_acessorio_capas": [
       "CAPA-G715-6-3",
       "CAPA-G715-RBT"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n6203/Samsung-Galaxy-Xcover-Pro.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n6066/Samsung-Galaxy-Xcover-Pro.html",
     "id_acessorio_peliculas": [
       "PEL-G715-6-3",
       "PEL-G715-6-3_2"
@@ -350,15 +371,16 @@
   },
   {
     "nome_equipamento": "SAMSUNG TAB S6 LITE",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-P615NZAV_4",
     "id_equipamento": "P615",
-    "link_imagem": "assets/img/SM-P615NZAV_4.jpg",
+    "link_imagem": "https://images.samsung.com/is/image/samsung/p6pim/br/sm-p619nzazzto/gallery/br-galaxy-tab-s6-lite-p615-sm-p619nzazzto-thumb-537510143",
     "id_acessorio_capas": [
       "CAPA-P615-10-4",
       "CAPA-P615-10-4",
       "CAPA-P615-10-4"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n6338/samsung-galaxy-tab-s6-lite.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n7872/Samsung-Galaxy-Tab-S6-Lite-2022.html",
     "id_acessorio_peliculas": [
       "PE-P615-10-5_6",
       "PE-P615-10-5_6",
@@ -367,35 +389,38 @@
   },
   {
     "nome_equipamento": "SS - TABLET - GALAXY TAB S6 LITE 64GB WIFI CINZA",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-P620NZAD_4",
     "id_equipamento": "P62X",
-    "link_imagem": "assets/img/SM-P620NZAD_4.jpg",
+    "link_imagem": "https://images.samsung.com/is/image/samsung/p6pim/es/sm-p619nzaaphe/gallery/es-galaxy-tab-s6-lite-p615-327348-sm-p619nzaaphe-thumb-532532635",
     "id_acessorio_capas": [],
-    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9210/samsung-galaxy-tab-s6-lite-2024.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9257/Samsung-Galaxy-Tab-S6-Lite-2024.html",
     "id_acessorio_peliculas": [
       "PE-P62X-10-4P"
     ]
   },
   {
     "nome_equipamento": "SS - TABLET - GALAXY TAB S6 LITE 64GB WIFI CINZA",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-P620NZADZTO",
     "id_equipamento": "P62X",
-    "link_imagem": "assets/img/SM-P620NZADZTO.jpg",
+    "link_imagem": "https://images.samsung.com/is/image/samsung/p6pim/es/sm-p619nzaaphe/gallery/es-galaxy-tab-s6-lite-p615-327348-sm-p619nzaaphe-thumb-532532635",
     "id_acessorio_capas": [],
-    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9210/samsung-galaxy-tab-s6-lite-2024.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9257/Samsung-Galaxy-Tab-S6-Lite-2024.html",
     "id_acessorio_peliculas": [
       "PE-P62X-10-4P"
     ]
   },
   {
     "nome_equipamento": "SS - SMARTPHONE - GALAXY S24 128GB PRETO",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-S921BZKJ_5",
     "id_equipamento": "S921",
-    "link_imagem": "assets/img/SM-S921BZKJ_5.jpg",
+    "link_imagem": "https://t.ctcdn.com.br/MqL_QE9r5kCT2eTZcPDO5wzaxjU=/fit-in/600x600/filters:fill(transparent):watermark(wm/prd.png,-32p,center,1,none,15)/i847825.png",
     "id_acessorio_capas": [
       "CAPA-S921-6-2P"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9115/Samsung-Galaxy-S24.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9105/Samsung-Galaxy-S24.html",
     "id_acessorio_peliculas": [
       "PE-S921-6-2V_6",
       "PE-S921-6-2P"
@@ -403,13 +428,14 @@
   },
   {
     "nome_equipamento": "SS - SMARTPHONE - GALAXY S24 128GB PRETO",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-S921BZKJZTO",
     "id_equipamento": "S921",
-    "link_imagem": "assets/img/SM-S921BZKJZTO.jpg",
+    "link_imagem": "https://t.ctcdn.com.br/MqL_QE9r5kCT2eTZcPDO5wzaxjU=/fit-in/600x600/filters:fill(transparent):watermark(wm/prd.png,-32p,center,1,none,15)/i847825.png",
     "id_acessorio_capas": [
       "CAPA-S921-6-2P"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9115/Samsung-Galaxy-S24.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9105/Samsung-Galaxy-S24.html",
     "id_acessorio_peliculas": [
       "PE-S921-6-2V_6",
       "PE-S921-6-2P"
@@ -417,13 +443,14 @@
   },
   {
     "nome_equipamento": "SS - SMARTPHONE - GALAXY S24 EE 256GB PRETO",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-S921BZKKL_4",
     "id_equipamento": "S921",
-    "link_imagem": "assets/img/SM-S921BZKKL_4.jpg",
+    "link_imagem": "https://t.ctcdn.com.br/MqL_QE9r5kCT2eTZcPDO5wzaxjU=/fit-in/600x600/filters:fill(transparent):watermark(wm/prd.png,-32p,center,1,none,15)/i847825.png",
     "id_acessorio_capas": [
       "CAPA-S921-6-2P"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9115/Samsung-Galaxy-S24.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9105/Samsung-Galaxy-S24.html",
     "id_acessorio_peliculas": [
       "PE-S921-6-2V_6",
       "PE-S921-6-2P"
@@ -431,38 +458,41 @@
   },
   {
     "nome_equipamento": "SS - SMARTPHONE - GALAXY S24+ 256GB PRETO",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-S926BZKJZTO",
     "id_equipamento": "S926",
-    "link_imagem": "assets/img/SM-S926BZKJZTO.jpg",
+    "link_imagem": "https://t.ctcdn.com.br/MqL_QE9r5kCT2eTZcPDO5wzaxjU=/fit-in/600x600/filters:fill(transparent):watermark(wm/prd.png,-32p,center,1,none,15)/i847825.png",
     "id_acessorio_capas": [
       "CAPA-S926-6-7",
       "CAPA-S926-6-7P"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9116/Samsung-Galaxy-S24-Plus.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9106/Samsung-Galaxy-S24-Plus.html",
     "id_acessorio_peliculas": [
       "PE-S926-6-7V"
     ]
   },
   {
     "nome_equipamento": "SAMSUNG TAB A 8 WIFI",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-T290NZKM_10",
     "id_equipamento": "T290",
-    "link_imagem": "assets/img/SM-T290NZKM_10.jpg",
+    "link_imagem": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-x710nzeainu/gallery/in-galaxy-tab-s9-wifi-x710-sm-x710nzeainu-thumb-537885500",
     "id_acessorio_capas": [
       "CAPA-T290-8_N2"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n5792/samsung-galaxy-tab-a-80-2019.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n6111/Samsung-Galaxy-Tab-A-8-0-2019.html",
     "id_acessorio_peliculas": [
       "PEL-T290"
     ]
   },
   {
     "nome_equipamento": "SAMSUNG GALAXY ACTIVE III",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-T575NZKP_5",
     "id_equipamento": "T575",
-    "link_imagem": "assets/img/SM-T575NZKP_5.jpg",
+    "link_imagem": "https://images.samsung.com/is/image/samsung/p6pim/nz/sm-t575nzkaxnz/gallery/nz-galaxy-tab-active3-t575-sm-t575nzkaxnz-426731653?$624_624_PNG$",
     "id_acessorio_capas": [],
-    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n6690/samsung-galaxy-tab-active-3.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n8148/Samsung-Galaxy-Tab-Active-3.html",
     "id_acessorio_peliculas": [
       "PEL-T575-8_2",
       "PE-T575-8V"
@@ -470,106 +500,115 @@
   },
   {
     "nome_equipamento": "GALAXY TAB A9 EE 64GB 4G",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-X115NZAAL05",
     "id_equipamento": "X115",
-    "link_imagem": "assets/img/SM-X115NZAAL05.jpg",
+    "link_imagem": "https://romiselectronics.com/cdn/shop/files/SamsungGalaxyTabA9SM-X1154G64GB4GBGraphite.webp?v=1711964643",
     "id_acessorio_capas": [
       "CAPA-X115-8-7"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9003/samsung-galaxy-tab-a9.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n8940/Samsung-Galaxy-Tab-A9.html",
     "id_acessorio_peliculas": [
       "PE-X115-8-7P"
     ]
   },
   {
     "nome_equipamento": "GALAXY TAB A8 WI-FI 10.5 (SM-X200)",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-X200NZAU_4",
     "id_equipamento": "X200",
-    "link_imagem": "assets/img/SM-X200NZAU_4.jpg",
+    "link_imagem": "https://ipmobile.am/wp-content/uploads/2023/09/samsung_tab_x200_silver_3.png",
     "id_acessorio_capas": [
       "CAPA-X200-10-5",
       "CAPA-X200-10-5",
       "CAPA-X200-10-5"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n7610/samsung-galaxy-tab-a8.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n7483/Samsung-Galaxy-Tab-A8-10-5.html",
     "id_acessorio_peliculas": [
       "PELX20010-5_2"
     ]
   },
   {
     "nome_equipamento": "GALAXY TAB A9+ 64GB WIFI",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-X210NZAAZTO",
     "id_equipamento": "X210",
-    "link_imagem": "assets/img/SM-X210NZAAZTO.jpg",
+    "link_imagem": "https://tablette-store.com/cache/media/media_front/ba2/2df/samsungtaba9-2023.png",
     "id_acessorio_capas": [
       "CAPA-X210-11-0"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9004/samsung-galaxy-tab-a9-plus.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n8941/Samsung-Galaxy-Tab-A9-Plus.html",
     "id_acessorio_peliculas": [
       "PE-X210-11-0P"
     ]
   },
   {
     "nome_equipamento": "GALAXY TAB A9+ 64GB 5G",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-X216BZAAZTO",
     "id_equipamento": "X216",
-    "link_imagem": "assets/img/SM-X216BZAAZTO.jpg",
+    "link_imagem": "https://tablette-store.com/cache/media/media_front/ba2/2df/samsungtaba9-2023.png",
     "id_acessorio_capas": [
       "CAPA-X216-11-0"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9004/samsung-galaxy-tab-a9-plus.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n8941/Samsung-Galaxy-Tab-A9-Plus.html",
     "id_acessorio_peliculas": [
       "PE-X216-11-0P"
     ]
   },
   {
     "nome_equipamento": "SS - TABLET - GALAXY TAB ACTIVE5 128GB 5G VERDE",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-X306BZGAL05",
     "id_equipamento": "X306",
-    "link_imagem": "assets/img/SM-X306BZGAL05.jpg",
+    "link_imagem": "https://shop.samsung.com/latin/ecu/pub/media/catalog/product/cache/a69170b4a4f0666a52473c2224ba9220/s/m/sm-x306b_000_all.png",
     "id_acessorio_capas": [],
-    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9119/samsung-galaxy-tab-active-5.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9115/Samsung-Galaxy-Tab-Active-5.html",
     "id_acessorio_peliculas": [
       "PE-X306-8V"
     ]
   },
   {
     "nome_equipamento": "GALAXY TAB S9 FE 128GB WIFI",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-X510NZADZTO",
     "id_equipamento": "X510",
-    "link_imagem": "assets/img/SM-X510NZADZTO.jpg",
+    "link_imagem": "https://images.samsung.com/is/image/samsung/p6pim/pt/sm-x510nlgaeub/gallery/pt-galaxy-tab-s9-fe-sm-x510-sm-x510nlgaeub-538501502?$624_624_PNG$",
     "id_acessorio_capas": [
       "CAPA-X510-10-4"
     ],
-    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n8998/samsung-galaxy-tab-s9-fe.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n8866/Samsung-Galaxy-Tab-S9-FE.html",
     "id_acessorio_peliculas": [
       "PE-X510-10-4V"
     ]
   },
   {
     "nome_equipamento": "SS - TABLET - GALAXY TAB S10 FE 5G 128GB CINZA",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-X526BZADZTO",
     "id_equipamento": "X526",
-    "link_imagem": "assets/img/SM-X526BZADZTO.jpg",
+    "link_imagem": "https://images.samsung.com/is/image/samsung/p6pim/ph/sm-x526bzaaxtc/gallery/ph-galaxy-tab-s10-fe-sm-x526-547482-sm-x526bzaaxtc-546320141?$Q90_1248_936_F_PNG$",
     "id_acessorio_capas": [],
-    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9441/samsung-galaxy-tab-s10-fe.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n9927/Samsung-Galaxy-Tab-S10-FE.html",
     "id_acessorio_peliculas": [
       "PE-X526-10-9P"
     ]
   },
   {
     "nome_equipamento": "SS - TABLET - GALAXY TAB TAB S11 256GB 5G CINZA",
+    "marca_equipamento": "SANSUNG",
     "sku_equipamento": "SM-X736BZAHZTO",
     "id_equipamento": "X736",
-    "link_imagem": "assets/img/SM-X736BZAHZTO.jpg",
+    "link_imagem": "https://images.samsung.com/is/image/samsung/p6pim/ae_ar/sm-x736bzaamea/gallery/ae-ar-galaxy-tab-s11-sm-x730-sm-x736bzaamea-548838683?$684_547_PNG$",
     "id_acessorio_capas": [],
-    "link_ficha_tecnica": "https://www.tudocelular.com/samsung/fichas-tecnicas/n9443/samsung-galaxy-tab-s11.html",
+    "link_ficha_tecnica": "https://www.tudocelular.com/Samsung/fichas-tecnicas/n10156/Samsung-Galaxy-Tab-S11.html",
     "id_acessorio_peliculas": [
       "PE-X736-11-0P"
     ]
   },
   {
     "nome_equipamento": "MOTO - SMARTPHONE - G73 5G 128GB 8GB RAM AZUL",
+    "marca_equipamento": "MOTOROLA",
     "sku_equipamento": "XT2237-1",
     "id_equipamento": "2237",
     "link_imagem": "assets/img/XT2237-1.jpg",
@@ -584,6 +623,7 @@
   },
   {
     "nome_equipamento": "MOTO - SMARTPHONE - E22 BUSIN 4G 128GB 4GB RAM PRETO",
+    "marca_equipamento": "MOTOROLA",
     "sku_equipamento": "XT2239-10",
     "id_equipamento": "2239",
     "link_imagem": "assets/img/XT2239-10.jpg",
@@ -597,6 +637,7 @@
   },
   {
     "nome_equipamento": "MOTO - SMARTPHONE - EDGE 40 NEO 256GB 8GB RAM PRETO",
+    "marca_equipamento": "MOTOROLA",
     "sku_equipamento": "XT2307-1",
     "id_equipamento": "2307",
     "link_imagem": "assets/img/XT2307-1.jpg",
@@ -610,6 +651,7 @@
   },
   {
     "nome_equipamento": "MOTO - SMARTPHONE - G54 5G 256GB 8GB RAM AZUL",
+    "marca_equipamento": "MOTOROLA",
     "sku_equipamento": "XT2343-1-2",
     "id_equipamento": "2343",
     "link_imagem": "assets/img/XT2343-1-2.jpg",
@@ -623,6 +665,7 @@
   },
   {
     "nome_equipamento": "MOTO - SMARTPHONE - G34 BUSIN 5G 128GB 4GB RAM PRETO",
+    "marca_equipamento": "MOTOROLA",
     "sku_equipamento": "XT2363FB-1",
     "id_equipamento": "2363",
     "link_imagem": "assets/img/XT2363FB-1.jpg",
@@ -636,6 +679,7 @@
   },
   {
     "nome_equipamento": "MOTO - SMARTPHONE - G34 BUSIN 5G 128GB 4GB RAM PRETO",
+    "marca_equipamento": "MOTOROLA",
     "sku_equipamento": "XT2363FB-1_4",
     "id_equipamento": "2363",
     "link_imagem": "assets/img/XT2363FB-1_4.jpg",
@@ -649,6 +693,7 @@
   },
   {
     "nome_equipamento": "MOTO - SMARTPHONE - G35 5G 256GB 4GB RAM CINZA",
+    "marca_equipamento": "MOTOROLA",
     "sku_equipamento": "XT2433-2_4",
     "id_equipamento": "2433",
     "link_imagem": "assets/img/XT2433-2_4.jpg",
@@ -662,6 +707,7 @@
   },
   {
     "nome_equipamento": "MOTO - SMARTPHONE - G55 5G 256GB 8GB RAM PRETO",
+    "marca_equipamento": "MOTOROLA",
     "sku_equipamento": "XT2435-1_4",
     "id_equipamento": "2435",
     "link_imagem": "assets/img/XT2435-1_4.jpg",
@@ -675,6 +721,7 @@
   },
   {
     "nome_equipamento": "MOTO - SMARTPHONE - G75 5G 256GB 8GB RAM PRETO",
+    "marca_equipamento": "MOTOROLA",
     "sku_equipamento": "XT2437-1_4",
     "id_equipamento": "2437",
     "link_imagem": "assets/img/XT2437-1_4.jpg",
@@ -688,6 +735,7 @@
   },
   {
     "nome_equipamento": "MOTO - SMARTPHONE - G86 5G 256GB 8GB RAM GRAFITE",
+    "marca_equipamento": "MOTOROLA",
     "sku_equipamento": "XT2527-1",
     "id_equipamento": "2527",
     "link_imagem": "assets/img/XT2527-1.jpg",
@@ -701,6 +749,7 @@
   },
   {
     "nome_equipamento": "MOTO - SMARTPHONE - G56 5G 256GB 8GB RAM GRAFITE",
+    "marca_equipamento": "MOTOROLA",
     "sku_equipamento": "XT2529-1",
     "id_equipamento": "2529",
     "link_imagem": "assets/img/XT2529-1.jpg",
