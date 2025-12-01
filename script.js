@@ -4,6 +4,7 @@ const searchInput = document.querySelector("input");
 
 // Array para armazenar os dados carregados do JSON.
 let dados = [];
+let marcaSelecionada = 'todas'; // Começa mostrando tudo
 
 // Função que carrega os dados do arquivo JSON.
 async function carregarDados() {
@@ -18,6 +19,8 @@ async function carregarDados() {
 
     // Converte a resposta em formato JSON e armazena na variável 'dados'.
     dados = await resposta.json();
+
+    gerarFiltrosMarcas(dados);
 
     // Renderiza todos os cards na tela assim que os dados são carregados.
     renderizarCards(dados);
@@ -38,21 +41,17 @@ async function carregarDados() {
 function iniciarBusca() {
   // Pega o valor digitado no campo de pesquisa, remove espaços extras e converte para minúsculas.
   const termoPesquisa = searchInput.value.trim().toLowerCase();
-
-  // Se o campo de pesquisa estiver vazio, renderiza todos os dados novamente.
-  if (termoPesquisa === "") {
-    renderizarCards(dados);
-    return;
-  }
-
   // Utiliza o método 'filter' para criar um novo array apenas com os itens que correspondem à busca.
   // 'filter' é mais moderno e conciso que um loop 'for' para esta tarefa.
   const resultados = dados.filter((dado) => {
     const nome = (dado.nome_equipamento || "").toLowerCase();
     const sku = (dado.sku_equipamento || "").toLowerCase();
     const id = (dado.id_equipamento || "").toLowerCase()
-    // Retorna 'true' se o nome ou a descrição incluírem o termo pesquisado.
-    return nome.includes(termoPesquisa) || sku.includes(termoPesquisa) || id.includes(termoPesquisa);
+    const matchTexto = nome.includes(termoPesquisa) || sku.includes(termoPesquisa) || id.includes(termoPesquisa); // Verifica se o nome, sku ou id incluem o termo pesquisado
+    const matchMarca = (marcaSelecionada === 'todas') || (dado.marca_equipamento === marcaSelecionada); // Verifica se a marca corresponde ou se "todas" está selecionada
+    if (!matchMarca) return false; // Filtra pela marca selecionada
+
+    return matchTexto && matchMarca;
   });
 
   // Renderiza os cards com os resultados filtrados.
@@ -91,8 +90,6 @@ function renderizarCards(dadosParaRenderizar) {
   });
 }
 
-// --- CONFIGURAÇÃO DOS EVENTOS ---
-
 // Adiciona um "escutador de evento" que chama 'carregarDados' assim que o conteúdo HTML da página é carregado.
 // Isso garante que os dados sejam exibidos assim que a página abre.
 document.addEventListener("DOMContentLoaded", carregarDados);
@@ -100,3 +97,22 @@ document.addEventListener("DOMContentLoaded", carregarDados);
 // Adiciona um "escutador de evento" ao campo de pesquisa que chama 'iniciarBusca' toda vez que o usuário digita algo.
 // Isso cria a funcionalidade de busca em tempo real.
 searchInput.addEventListener("input", iniciarBusca);
+
+function gerarFiltrosMarcas(dados) {
+  const listaMarcas = document.getElementById("lista-marcas");
+  const marcasUnicas = [...new Set(dados.map(dado => dado.marca_equipamento))].sort();
+  listaMarcas.innerHTML = `<li class="$marcaSelecionada === 'todas' ? 'filtro-ativo' : ''}" onclick="filtrarPorMarca('todas')">Todas</li>`;
+  marcasUnicas.forEach(marca => {
+    const li = document.createElement("li");
+    li.textContent = marca;
+    if (marca === marcaSelecionada) li.classList.add("filtro-ativo");
+    li.onclick = () => filtrarPorMarca(marca);
+    listaMarcas.appendChild(li);
+  });
+};
+
+function filtrarPorMarca(marca) {
+  marcaSelecionada = marca;
+  gerarFiltrosMarcas(dados);
+  iniciarBusca();
+}
