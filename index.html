@@ -8,12 +8,25 @@
 </head>
 <body>
     <header>
-        <h1>Base de modelos Mobile</h1>
-        <div>
-            <input type="text" placeholder="Digite sua busca">
+        <div class="header-inner">
+                <div class="header-logo-area">
+                    <img src="https://sim2you.simpress.com.br/media/wysiwyg/Logo-Simpress-branco.png" alt="Logo-Simpress-branco" class="logo-simpress">
+                </div>
+            <div class="header-search-area">    
+                <h1>Base de Modelos Mobile</h1>
+                    <div>
+                        <input type="text" placeholder="Digite sua busca">
+                    </div>
+            </div>
         </div>
     </header>
     <main>
+        <aside class="sidebar-filters">
+            <h3>Marcas</h3>
+            <ul id="lista-marcas">
+                <li class="filtro-ativo" onclick="filtrarPorMarca('todas')">Todas</li>
+            </ul>
+        </aside>
         <section class="card-container">
             <!-- Os cards serão inseridos aqui pelo JavaScript -->
         </section>
@@ -22,10 +35,10 @@
         <footer class="footer">
         <ul class="footer-links">
             <li>
-                <a href="https://shop.simpress.com.br/?gad_campaignid=23195652885" target="_blank">Shop Simpress</a>
+                <a href="https://ux.simpress.com.br/ng/autenticacao/login" target="_blank">Simpress UX</a>
             </li>
             <li>
-                <a href="https://ux.simpress.com.br/ng/autenticacao/login" target="_blank">Simpress UX</a>
+                <a href="https://shop.simpress.com.br/?gad_campaignid=23195652885" target="_blank">Shop Simpress</a>
             </li>
         </ul>
         <p>Desenvolvido por Lucas Santos - <a href="https://www.linkedin.com/in/lsconceicao" target="_blank" class="p">LinkedIn</a> e <a href="https://github.com/lsconceicao" target="_blank" class="p">GitHub</a></p>

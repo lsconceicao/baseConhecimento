@@ -4,6 +4,7 @@
     box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
 }
 
+
 :root {
     --primary-color: #8ab4f8; /* Cor primária (azul claro) */
     --secondary-color: #e8eaed; /* Cor secundária (cinza claro) */
@@ -19,16 +20,43 @@ body {
 }
 
 header {
-    padding: 2rem 1rem; /* Espaçamento interno (2rem em cima/baixo, 1rem nos lados) */
-    display: flex; /* Habilita o layout flexbox */
-    align-items: center; /* Alinha os itens verticalmente ao centro */
-    justify-content: space-around; /* Distribui os itens com espaço ao redor */
-    position: sticky; /* Mantém o cabeçalho fixo no topo ao rolar a página */
-    top: 0; /* Posição do topo quando sticky */
-    background: var(--bg-color); /* Cor de fundo do cabeçalho */
-    z-index: 10; /* Define a ordem de empilhamento para ficar sobre outros elementos */
-    border-bottom: 1px solid var(--bg-color); /* Adiciona uma borda inferior */
-    gap: 1rem; /* Espaçamento entre os elementos flex */
+    background: var(--bg-color);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom: 1px solid var(--bg-color);
+    padding: 1rem 0; /* Removemos o padding lateral aqui, será controlado pelo inner */
+    width: 100%;
+}
+
+.header-inner {
+    max-width: 80rem;     /* Mesmo max-width do main */
+    margin: 0 auto;       /* Centraliza igual ao main */
+    padding: 0 1rem;      /* Mesmo padding lateral do main */
+    
+    display: grid;        /* Ativa o Grid */
+    grid-template-columns: 200px 1fr; /* MESMAS colunas do main: 200px para logo, resto para busca */
+    gap: 2rem;            /* Mesmo gap do main */
+    align-items: center;  /* Centraliza verticalmente */
+}
+
+/* Área da Logo (Coluna 1) */
+.header-logo-area {
+    display: flex;
+    align-items: center;
+    /* Não precisa de width, o grid já define 200px */
+}
+
+.logo-simpress {
+    height: 50px; /* Define a altura da logo */
+    width: auto; /* Espaçamento à direita da logo */
+}
+
+.header-search-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Espaça o título e o input */
+    width: 100%; /* Ocupa toda a largura da coluna */
 }
 
 header h1 {
@@ -36,6 +64,24 @@ header h1 {
     margin: 0; /* Remove a margem padrão */
     font-weight: 500; /* Peso da fonte (médio) */
     white-space: nowrap; /* Impede a quebra de linha do texto */
+}
+
+.search-box input {
+    padding: 0.375rem 0.75rem;
+    border-radius: 1rem;
+    border: 1px solid var(--tertiary-color);
+    background: var(--bg-color);
+    color: var(--secondary-color);
+    font-size: 1.2rem; /* Reduzi um pouco para ficar mais elegante */
+    width: 20rem;      /* Largura fixa mais controlada */
+    margin: 0;         /* Remove margem */
+    transition: all 0.2s ease;
+}
+
+.search-box input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 1px var(--primary-color);
 }
 
 div input {
@@ -48,7 +94,7 @@ div input {
     transition: all 0.2s ease; /* Adiciona uma transição suave para todas as propriedades */
     width: 30rem; /* Largura do input */
     color: var(--secondary-color); /* Cor do texto digitado */
-    margin-right: .5rem; /* Margem à direita */
+    margin-right: 6rem; /* Margem à direita */
 }
 
 div input::placeholder {
@@ -65,11 +111,81 @@ div input:focus {
 
 
 main {
-    overflow-y: scroll; /* Adiciona uma barra de rolagem vertical se o conteúdo exceder a altura */
-    max-width: 80rem; /* Largura máxima do conteúdo principal */
-    margin: 0 auto; /* Centraliza o conteúdo principal horizontalmente */
-    margin-top: 2rem; /* Margem no topo */
-    height: calc(100vh - 10rem - 4rem); /* Calcula a altura para preencher o espaço restante da tela */
+    /* 1. Definimos a altura fixa para ocupar o espaço entre header e footer */
+    /* Ajuste os pixels do calc() se o header/footer mudarem de tamanho */
+    height: calc(100vh - 10rem - 4rem); 
+    
+    max-width: 80rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    
+    /* 2. Travamos o scroll do MAIN (para não rolar a página toda) */
+    overflow: hidden; 
+
+    /* 3. Criamos o Grid (Lado a Lado) */
+    display: grid;
+    grid-template-columns: 200px 1fr; /* 200px para filtro, restante para cards */
+    gap: 2rem;
+}
+
+.sidebar-filters {
+    /* Se a lista de marcas for gigante, ela também pode rolar sozinha */
+    overflow-y: auto; 
+    padding-right: 10px;
+}
+
+.sidebar-filters h3 {
+    color: var(--primary-color);
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.sidebar-filters ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-filters li {
+    cursor: pointer;
+    padding: 8px 10px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    color: var(--secondary-color);
+    transition: background 0.2s;
+}
+
+.sidebar-filters li:hover {
+    background-color: #3c4043;
+}
+
+.filtro-ativo {
+    background-color: rgba(138, 180, 248, 0.2);
+    color: var(--primary-color) !important;
+    font-weight: bold;
+}
+
+/* --- AQUI ESTÁ O TRUQUE DO SCROLL --- */
+.card-container {
+    /* Permite que SÓ essa área tenha rolagem vertical */
+    overflow-y: auto; 
+    
+    /* Garante que o container ocupe toda a altura disponível no grid do main */
+    height: 100%; 
+    
+    /* Um padding extra na direita para o scroll não ficar colado no texto/imagem */
+    padding-right: 1rem; 
+}
+
+/* Personalização da barra de rolagem (Opcional - Fica mais bonito no Chrome/Edge) */
+.card-container::-webkit-scrollbar {
+    width: 8px;
+}
+.card-container::-webkit-scrollbar-track {
+    background: var(--bg-color); 
+}
+.card-container::-webkit-scrollbar-thumb {
+    background-color: var(--tertiary-color); 
+    border-radius: 4px;
 }
 
 article {
@@ -181,6 +297,9 @@ article a:hover {
 
     main { /* Estilos para o main em telas menores */
         padding: 0 1rem; /* Adiciona espaçamento lateral */
+        grid-template-columns: 1fr; /* Uma coluna só */
+        grid-template-rows: auto 1fr; /* Filtro em cima (auto), Cards embaixo ocupando o resto */
+        height: calc(100vh - 8rem); /* Ajuste fino para mobile se necessário */
     }
 
     article:hover { /* Estilos para o article em telas menores */
@@ -195,6 +314,35 @@ article a:hover {
         height: 200px;     /* Volta a ter altura fixa */
         border-right: none; 
         border-bottom: 1px solid var(--tertiary-color);
+    }
+    .sidebar-filters ul {
+        display: flex; /* Filtros na horizontal no celular */
+        gap: 10px;
+        overflow-x: auto; /* Rolagem lateral nos filtros se não couberem */
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .card-container {
+        /* No mobile, o container de cards continua rolando verticalmente */
+        height: 100%; 
+    }
+    .header-inner {
+        grid-template-columns: 1fr; /* Uma coluna no mobile */
+        gap: 1rem;
+    }
+
+    .header-logo-area {
+        justify-content: center; /* Centraliza logo no mobile */
+    }
+
+    .header-search-area {
+        flex-direction: column; /* Título em cima, busca embaixo */
+        gap: 1rem;
+    }
+
+    .search-box input {
+        width: 100%; /* Input ocupa tudo no mobile */
     }
 }
 
