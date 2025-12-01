@@ -101,7 +101,7 @@ searchInput.addEventListener("input", iniciarBusca);
 function gerarFiltrosMarcas(dados) {
   const listaMarcas = document.getElementById("lista-marcas");
   const marcasUnicas = [...new Set(dados.map(dado => dado.marca_equipamento))].sort();
-  listaMarcas.innerHTML = `<li class="$marcaSelecionada === 'todas' ? 'filtro-ativo' : ''}" onclick="filtrarPorMarca('todas')">Todas</li>`;
+  listaMarcas.innerHTML = `<li class="${marcaSelecionada === 'todas' ? 'filtro-ativo' : ''}" onclick="filtrarPorMarca('todas')">Todas</li>`;
   marcasUnicas.forEach(marca => {
     const li = document.createElement("li");
     li.textContent = marca;
