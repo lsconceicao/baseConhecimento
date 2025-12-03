@@ -12,7 +12,7 @@ async function carregarDados() {
     // Realiza a requisição para o arquivo data.json.
     //const resposta = await fetch("data.json");
     //chamada no servidor Node
-    const resposta = await fetch("http://localhost:3000/api/equipamentos");
+    const resposta = await fetch("/api/equipamentos");
 
 
     // Se a resposta não for bem-sucedida (ex: erro 404), lança um erro.
