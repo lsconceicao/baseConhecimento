@@ -1,44 +1,57 @@
-require('dotenv').config(); // Carrega as variaveis do .env
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
-const sqlite3 = require('sqlite3').verbose(); // Importa o SQLite
-const path = require('path'); //Módulo nativo para lidar com caminhos de pasta
-
+const path = require('path');
+const pool = require('./db'); // Importa a conexão do Postgres
 
 const app = express();
-const PORT = process.env.PORT || 3000; // Usa a porta do .env ou 3000
+const PORT = process.env.PORT || 3000;
 
-// Apenas os arquivos dentro de 'public' são acessíveis
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.json()); // Importante para o CRUD funcionar (receber JSON)
 app.use(cors());
 
-// Conecta ao banco de dados criado
-const dbPath = process.env.DB_PATH || './meubanco.db';
-const db = new sqlite3.Database(dbPath, err => {
-    if (err) {
-        console.error('Erro ao abrir o banco:', err.message);
-    } else {
-        console.log('Conectado ao banco de dados SQLite');
+// Rota de Leitura (GET)
+app.get('/api/equipamentos', async (req, res) => {
+    try {
+        const result = await pool.query('SELECT * FROM equipamentos');
+        
+        const dadosFormatados = result.rows.map(row => ({
+            ...row,
+            id_acessorio_capas: row.capas ? row.capas.split(',') : [],
+            id_acessorio_peliculas: row.peliculas ? row.peliculas.split(',') : []
+        }));
+
+        res.json(dadosFormatados);
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({ error: "Erro ao buscar dados" });
     }
 });
 
-app.get('/api/equipamentos', (req, res) => {
-    const sql = "SELECT * FROM equipamentos";
-    db.all(sql, [], (err, rows) => {
-        if (err) {
-            res.status(400).json({ "erro": err.message });
-            return;
-        }
-
-    const dadosFormatados = rows.map(rows => ({
-        ...rows,
-        id_acessorio_capas: rows.capas ? rows.capas.split(',') : [],
-        id_acessorio_peliculas: rows.peliculas ? rows.peliculas.split(',') : []
-    }));
-    res.json(dadosFormatados);
-    });
+// EXEMPLO DE ROTA DE CRIAÇÃO (POST) - Para você testar o CRUD real depois
+app.post('/api/equipamentos', async (req, res) => {
+    const { nome, sku, id_eq, marca, img, ficha, capas, peliculas } = req.body;
+    
+    try {
+        // Note a sintaxe $1, $2, $3...
+        const query = `
+            INSERT INTO equipamentos (
+                nome_equipamento, sku_equipamento, id_equipamento, marca_equipamento, 
+                link_imagem, link_ficha_tecnica, capas, peliculas
+            ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING *
+        `;
+        
+        const values = [nome, sku, id_eq, marca, img, ficha, capas.join(','), peliculas.join(',')];
+        const newEquip = await pool.query(query, values);
+        
+        res.json(newEquip.rows[0]);
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({ error: "Erro ao salvar" });
+    }
 });
 
 app.listen(PORT, () => {
-    console.log(`Servidor rodando em http://localhost:${PORT}`);
+    console.log(`Servidor rodando na porta ${PORT}`);
 });
