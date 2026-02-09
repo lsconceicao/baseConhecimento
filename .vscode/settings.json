@@ -1,0 +1,17 @@
+{
+    "sqltools.connections": [
+        {
+            "pgOptions": {
+                "ssl": {
+                    "rejectUnauthorized": true
+                }
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "driver": "PostgreSQL",
+            "name": "Render - Produção",
+            "connectString": "postgresql://base_trocatecnica_db_dev1_user:3hU8s3jkbnCb6GEyEC1mekd94Y7gw5V8@dpg-d5fvj8chg0os73e1d800-a.oregon-postgres.render.com/base_trocatecnica_db_dev1"
+        }
+    ]
+}
